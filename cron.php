@@ -1,9 +1,9 @@
 <?php
 // Database Secret (Example below)
-$authkey = JeiswGeqY4JUJewpGHSBJS2xpYwlUG9NTBbjWbaP6;
+$authkey = "JeiswGeqY4JUJewpGHSBJS2xpYwlUG9NTBbjWbaP6";
 
 // Firebase URL (Example below)
-$url = https://exampleurl.firebaseio.com/;
+$url = "https://exampleurl.firebaseio.com/";
 
 
 $filename = date('m-d-Y_H:i:s').'.json';
