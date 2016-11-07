@@ -7,7 +7,7 @@ $url = https://exampleurl.firebaseio.com/;
 
 
 $filename = date('m-d-Y_H:i:s').'.json';
-$fileloc = $_SERVER['DOCUMENT_ROOT'].'/'.'SBX/backups/'.$filename;
+$fileloc = $_SERVER['DOCUMENT_ROOT'].'/'.'backups/'.$filename;
 $myfile = fopen($fileloc, "wb");
 $fullurl = $url.".json?format=export&print=pretty&auth=".$authkey;
 $response = file_get_contents($fullurl);
